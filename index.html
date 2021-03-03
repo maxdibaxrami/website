@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Css/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="maindiv" onload="loadingpage()">
+    <div id="loadingdiv" class="LoadingDiv">
+        <img class="LoadingImage" src="Images/preloader.gif"/>
+    </div>
+
+
+    
+
+      <div class="container-xxl first-section padfirst ">
+
+
+
+    <nav id="navbarmain" class="navbar navbar-expand-lg navbar-light navbarcolor">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="darklogo" href="#">
+          <img src="Images/logo-light.png"/>
+        </a>
+        <a class="navbar-brand light-logo-res" href="#">
+          <img src="http://webstrot.com/html/typhoon/typhoon_html/images/hd_logo.png"/>
+        </a>
+        <button class="navbar-toggler btncolor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span style="color: white !important;" class="navbar-toggler-icon "></span>
+        </button>
+
+        <div class="collapse navbar-collapse" style="flex-grow:0 !important" id="navbarScroll" >
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" >
+            
+
+            <li class="nav-item dropdown">
+              <a class="nav-link navcolor" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Home
+              </a>
+              <ul class="dropdown-menu menu-style" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Home 1</a></li>
+                <li><a class="dropdown-item" href="#">Home 2</a></li>
+                <li><a class="dropdown-item" href="#">Home 3</a></li>
+                <li><a class="dropdown-item" href="#">Home 4</a></li>
+                <li><a class="dropdown-item" href="#">Home 5</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link navcolor" href="#">About us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link navcolor" href="#" >Service</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link navcolor" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Project
+              </a>
+              <ul class="dropdown-menu menu-style" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Project 1</a></li>
+                  <li><a class="dropdown-item" href="#">Project 2</a></li>
+                  <li><a class="dropdown-item" href="#">Project 3</a></li>
+                  <li><a class="dropdown-item" href="#">Project 4</a></li>
+                  <li><a class="dropdown-item" href="#">Project 5</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link navcolor" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Team
+              </a>
+              <ul class="dropdown-menu menu-style" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Team</a></li>
+                  <li><a class="dropdown-item" href="#">Team Details</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link navcolor" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Blog
+              </a>
+              <ul class="dropdown-menu menu-style" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Blog single </a></li>
+                  <li><a class="dropdown-item" href="#">Blog category </a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link navcolor" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Shop 
+              </a>
+              <ul class="dropdown-menu menu-style" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Shop Slidebar</a></li>
+                  <li><a class="dropdown-item" href="#">Shop Single</a></li>
+                  <li><a class="dropdown-item" href="#">Shop Fullwidth</a></li>
+
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link navcolor" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Contact us
+              </a>
+              <ul class="dropdown-menu menu-style" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Contact us</a></li>
+                  <li><a class="dropdown-item" href="#">Page 404</a></li>
+
+
+              </ul>
+            </li>
+
+            <li id="basket" class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-basket" style="font-size: 15px; color: white;"></i>
+              </a>
+              <ul class="dropdown-menu menu-style-big" style="margin-left: -120px !important;" aria-labelledby="navbarScrollingDropdown">
+                
+                
+                <div class="row" style="padding: 10px !important;">
+                  <div class="col-3">
+                    <img src="http://webstrot.com/html/typhoon/typhoon_html/images/cart_3.png"/>
+                  </div>
+                  <div class="col-7">
+                    <h5 style="font-weight: bolder;">Put a title Here!</h5>
+                    <span style="background-color: silver; padding: 4px 5px;">1</span>
+                    <span style="font-weight: bolder;">120$</span>
+                  </div>
+                  <div class="col-2 align-middle">
+                    <i style="color: red;" class="bi bi-x-circle "></i>
+
+                  </div>
+                </div>
+                <hr/>
+
+
+                <div class="row" style="padding: 10px !important;">
+                  <div class="col-3">
+                    <img src="http://webstrot.com/html/typhoon/typhoon_html/images/cart_3.png"/>
+                  </div>
+                  <div class="col-7">
+                    <h5 style="font-weight: bolder;">Put a title Here!</h5>
+                    <span style="background-color: silver; padding: 4px 5px;">1</span>
+                    <span style="font-weight: bolder;">120$</span>
+                  </div>
+                  <div class="col-2 align-middle">
+                    <i style="color: red;" class="bi bi-x-circle "></i>
+
+                  </div>
+                </div>
+                <hr/>
+             
+
+
+                <div class="row" style="padding: 10px !important;">
+                  <div class="col-3">
+                    <img src="http://webstrot.com/html/typhoon/typhoon_html/images/cart_3.png"/>
+                  </div>
+                  <div class="col-7">
+                    <h5 style="font-weight: bolder;">Put a title Here!</h5>
+                    <span style="background-color: silver; padding: 4px 5px;">1</span>
+                    <span style="font-weight: bolder;">120$</span>
+                  </div>
+                  <div class="col-2 align-middle">
+                    <i style="color: red;" class="bi bi-x-circle "></i>
+
+                  </div>
+                </div>
+             
+             
+                
+
+
+              </ul>
+            </li>
+
+            <li id="navsearch" class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-search" style="font-size: 15px; color: white;"></i>
+              </a>
+              <ul class="dropdown-menu search-classess" aria-labelledby="navbarScrollingDropdown">
+                <div class="input-group input-group-lg">
+                  <input type="text" class=" search-text" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+                </div>
+
+
+              </ul>
+            </li>
+
+            <li id="navmenu" class="nav-item dropdown">
+              <a class="nav-link" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-three-dots-vertical" style="font-size: 15px; color: white;"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Contact us</a></li>
+                  <li><a class="dropdown-item" href="#">Page 404</a></li>
+
+
+              </ul>
+            </li>
+
+            <li id="navbtn" class="nav-item">
+              <button id="navbutton" type="button" class="btn">Free Quote</button>
+            </li>
+
+            
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+        
+        <div class="row">
+            <div class="col">
+                
+              <div id="carouselExampleDark" class="carousel carousel-dark slide slideimage" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner ">
+                  <div class="carousel-item active slidetext" data-bs-interval="10000">
+                    <h2 class="slidemaintext">Introducing World’s Longest Wind Turbine</h2>
+                    <p class="slidesubtext">Windtech redefines your relationship with energy, save money minimize your carbon footprint, take control of your power costs.</p>
+                    <button type="button" class="btn btn-lg slidebtn">Read more...</button>
+
+                  </div>
+                  <div class="carousel-item slidetext" data-bs-interval="2000">
+
+                    <h2 class="slidemaintext">Introducing World’s Longest Wind Turbine</h2>
+                    <p class="slidesubtext">Windtech redefines your relationship with energy, save money minimize your carbon footprint, take control of your power costs.</p>
+                    <button type="button" class="btn btn-lg slidebtn">Read more...</button>
+
+                  </div>
+                  <div class="carousel-item slidetext">
+                      <h2 class="slidemaintext">Introducing World’s Longest Wind Turbine</h2>
+                      <p class="slidesubtext">Windtech redefines your relationship with energy, save money minimize your carbon footprint, take control of your power costs.</p>
+                      <button type="button" class="btn btn-lg slidebtn">Read more...</button>
+
+                    </div>
+                </div>
+              
+              </div>
+
+            </div>
+            <div class="col hideinphone">
+              
+                <img src="Images/slider_img.gif" class="img-fluid" alt="...">
+                <img src="http://webstrot.com/html/typhoon/typhoon_html/images/icon_3.png" class="animate-circle-move" style="top: 200px; right: 30px;"/>
+                <img src="http://webstrot.com/html/typhoon/typhoon_html/images/icon_5.png" class="animate-up-down-move" style="top: 100px; right: 500px;"/>
+                <img src="http://webstrot.com/html/typhoon/typhoon_html/images/icon_7.png" class="animate-left-right" style="bottom: 50px; right: 650px;"/>
+                <img src="http://webstrot.com/html/typhoon/typhoon_html/images/icon_8.png" class="animate-left-right2" style="bottom: -160px; left: -80px;"/>
+
+            </div>
+          </div>
+
+      </div>
+
+      <div style="padding: 20px;" class="container-xl">
+        <h2 class="sec2-title sometext-color"><span class="wave-underline sometext-color">We</span> Cover The Whole Spectrum</h2>
+        <img src="http://webstrot.com/html/typhoon/typhoon_html/images/icon_1.png" class="animate-circle-move" style="left: 50px; top: 1010px; z-index: -100;"/>
+
+        <div class="btn-arow-style">
+          <button onclick="MoveScroll('right')" id="leftmovefirstslide" class="btn arrowbutton" type="button">
+            <i class="bi bi-arrow-left"></i>
+          </button>
+          <button onclick="MoveScroll('left')" id="rightmovefirstslide" class="btn arrowbutton" type="button">
+            <i class="bi bi-arrow-right"></i>
+          </button>
+        </div>
+
+        <div id="cartslider" class="scrollmenu" style="margin-top: 40px !important;">
+          
+            <div class="cart-white-scorol">
+              <img class="cart-image-animate" src="Images/cartimage1.png"/>
+              <h3>Solar System</h3>
+            </div>
+
+            <div class="cart-white-scorol">
+              <img class="cart-image-animate" src="Images/cartimage1.png"/>
+              <h3>Mahdi bahrami</h3>
+            </div>
+
+            <div class="cart-white-scorol">
+              <img class="cart-image-animate" src="Images/cartimage1.png"/>
+              <h3>Erfan morsali</h3>
+            </div>
+
+            <div class="cart-white-scorol">
+              <img class="cart-image-animate" src="Images/cartimage1.png"/>
+              <h3>Solar City</h3>
+            </div>
+
+            <div class="cart-white-scorol">
+              <img class="cart-image-animate" src="Images/cartimage1.png"/>
+              <h3>Solar System</h3>
+            </div>
+
+            <div class="cart-white-scorol">
+              <img class="cart-image-animate" src="Images/cartimage1.png"/>
+              <h3>Solar System</h3>
+            </div>
+
+        </div>
+          
+
+      </div>
+
+      <div style="padding: 20px;" class="container-xl">
+
+        <h2 class="sec2-title sometext-color"><span class="wave-underline sometext-color"> Discover</span> The Advantages</h2>
+        <p style="padding-top: 2rem;" class="slidesubtext">Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor.        </p>
+          <div class="row" style="padding-top: 30px !important;">
+
+            <img src="http://webstrot.com/html/typhoon/typhoon_html/images/icon_2.png" class="animate-up-down-move" style="top: 1550px; left: 50px; height: 20px;width: 48px;"/>
+
+
+            <div class="row">
+              <div class="col">
+                <div class="row row-a">
+                  <div class="col-2">
+                    <img class="item-image-3 cart-image-animate" src="Images/Screenshot from 2021-02-28 14-30-29.png"/>
+                  </div>
+                  <div style="padding: 25px !important;" class="col-10">
+                    <h5 style="font-weight: bolder;">Solar Panels Service</h3>
+                    <p style="font-size: 14px !important;">Ruisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur
+                      elitam purus tellus fringilla.</p>
+                  </div>
+                </div>
+  
+                <div class="row row-a">
+                  <div class="col-2">
+                    <img class="item-image-3 cart-image-animate" src="Images/Screenshot from 2021-02-28 14-30-29.png"/>
+                  </div>
+                  <div style="padding: 25px !important;" class="col-10">
+                    <h5 style="font-weight: bolder;">Solar Panels Service</h3>
+                    <p style="font-size: 14px !important;">Ruisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur
+                      elitam purus tellus fringilla.</p>
+                  </div>
+                </div>
+  
+                <div class="row row-a">
+                  <div class="col-2">
+                    <img class="item-image-3 cart-image-animate" src="Images/Screenshot from 2021-02-28 14-30-29.png"/>
+                  </div>
+                  <div style="padding: 25px !important;" class="col-10">
+                    <h5 style="font-weight: bolder;">Solar Panels Service</h3>
+                    <p style="font-size: 14px !important;">Ruisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur
+                      elitam purus tellus fringilla.</p>
+                  </div>
+                </div>
+                <button style="padding-left: 2.5rem !important; padding-right: 2.5rem !important;" type="button" class="btn btn-lg slidebtn">Veiw all</button>
+
+              </div>
+              <div id="image-div-3-main" class="col">
+                <div class="image-div-animate">
+                  <img class="image-div-3" src="Images/disc_lft.jpg" alt="">
+                </div>
+              </div>
+            </div>
+
+
+              
+          
+    
+      </div>
+
+    </div>
+      <div style="padding: 20px;" class="container-xxl background-banner">
+      
+      <i style="margin: 20px; color: white; font-size: xx-large;" class="bi bi-flower1"></i> 
+      <h4 style="color: white; font-size: xx-large;">  
+        Get Free Consultancy About Your Project  
+      </h4>
+      <button style="margin-top: 20px;" id="navbutton" type="button" class="btn">Ask a Question</button>
+
+      </div>
+
+
+
+
+        <div style="padding: 20px;" class="container-xxl background-none-banner">
+          <img src="http://webstrot.com/html/typhoon/typhoon_html/images/icon_1.png" class="animate-circle-move" style="right: 50px; top: 2400px; z-index: -100;"/>
+
+          <h2 class="sec2-title sometext-color"> Our <span class="wave-underline sometext-color">Incredible</span>  Projects</h2>
+          <p style="color: black !important;" class="slidesubtext">Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor.</p>
+          
+          <button type="button" style="color:blueviolet !important;" class="btn image-list-btn">All</button>
+          <button type="button" class="btn image-list-btn">Household</button>
+          <button type="button" class="btn image-list-btn">Organization</button>
+          <button type="button" class="btn image-list-btn">Research</button>
+          <button type="button" class="btn image-list-btn">Solar Pannels</button>
+          <button type="button" class="btn image-list-btn">Wind Energy</button>
+
+          <div style="padding: 20px;" class="row row-cols-1 row-cols-md-3 g-4">
+
+            <div class="col">
+                <div class="imagemove">
+                  <img src="http://webstrot.com/html/typhoon/typhoon_html/images/pj_1.jpg" alt="Avatar" class="image1">
+                  <div class="overlay1">
+                    <div class="text1">
+                      <button style="background-color: white !important;" type="button" class="btn image-list-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="bi bi-fullscreen"></i>
+                      </button>
+                      <br/>
+                      
+                      Project Title Here <br/> (Solar Pannels)
+                    </div>
+                  </div>
+                </div>
+
+            </div>
+
+            <div class="col">
+              <div class="imagemove">
+                <img src="http://webstrot.com/html/typhoon/typhoon_html/images/pj_1.jpg" alt="Avatar" class="image1">
+                <div class="overlay1">
+                  <div class="text1">
+                    <button style="background-color: white !important;" type="button" class="btn image-list-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                      <i class="bi bi-fullscreen"></i>
+                    </button>
+                    <br/>
+                    
+                    Project Title Here <br/> (Solar Pannels)
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+          <div class="col">
+            <div class="imagemove">
+              <img src="http://webstrot.com/html/typhoon/typhoon_html/images/pj_1.jpg" alt="Avatar" class="image1">
+              <div class="overlay1">
+                <div class="text1">
+                  <button style="background-color: white !important;" type="button" class="btn image-list-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <i class="bi bi-fullscreen"></i>
+                  </button>
+                  <br/>
+                  
+                  Project Title Here <br/> (Solar Pannels)
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col">
+          <div class="imagemove">
+            <img src="http://webstrot.com/html/typhoon/typhoon_html/images/pj_1.jpg" alt="Avatar" class="image1">
+            <div class="overlay1">
+              <div class="text1">
+                <button style="background-color: white !important;" type="button" class="btn image-list-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <i class="bi bi-fullscreen"></i>
+                </button>
+                <br/>
+                
+                Project Title Here <br/> (Solar Pannels)
+              </div>
+            </div>
+          </div>
+
+         </div>
+
+          <div class="col">
+           <div class="imagemove">
+            <img src="http://webstrot.com/html/typhoon/typhoon_html/images/pj_1.jpg" alt="Avatar" class="image1">
+           <div class="overlay1">
+            <div class="text1">
+              <button style="background-color: white !important;" type="button" class="btn image-list-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <i class="bi bi-fullscreen"></i>
+              </button>
+              <br/>
+              
+              Project Title Here <br/> (Solar Pannels)
+            </div>
+          </div>
+        </div>
+
+    </div>
+
+    <div class="col">
+      <div class="imagemove">
+        <img src="http://webstrot.com/html/typhoon/typhoon_html/images/pj_1.jpg" alt="Avatar" class="image1">
+        <div class="overlay1">
+          <div class="text1">
+            <button style="background-color: white !important;" type="button" class="btn image-list-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              <i class="bi bi-fullscreen"></i>
+            </button>
+            <br/>
+            
+            Project Title Here <br/> (Solar Pannels)
+          </div>
+        </div>
+      </div>
+
+
+
+
+       
+  
+          </div>
+          <div style="text-align: center; width: 100%;">
+            <button id="navbutton" type="button" class="btn btnshowmore">Load More...</button>
+           </div>
+
+
+          </div>
+        </div>
+          
+          <div class="container-xxl background-none-banner2" style="padding-top: 65px !important">
+      
+            <h2 class="sec2-title sometext-color"> Why Choose  
+              <span class="wave-underline sometext-color">Us</span>  Solar Energy</h2>
+            <p style="color: black !important;" class="slidesubtext">Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor.
+
+            </p>
+            
+            <div class="row s-res">
+              <div class="col-4 s-res">
+                <div class="row row-a" style="margin-top: 15px !important;">
+                  <div class="col-3">
+                    <img class="item-image-3 cart-image-animate" src="Images/Screenshot from 2021-02-28 14-30-29.png"/>
+                  </div>
+                  <div class="col-9" style="padding: 20px 25px !important;">
+                    <h5 style="font-weight: bolder; text-align: left !important;">Long Time to Use</h3>
+                    <p style="font-size: 14px !important; text-align: left !important;">Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                  </div>
+                </div>
+
+                <div class="row row-a" style="margin-top: 15px !important;">
+                  <div class="col-3">
+                    <img class="item-image-3 cart-image-animate" src="Images/Screenshot from 2021-02-28 14-30-29.png"/>
+                  </div>
+                  <div class="col-9" style="padding: 20px 25px !important;">
+                    <h5 style="font-weight: bolder; text-align: left !important;">Long Time to Use</h3>
+                    <p style="font-size: 14px !important; text-align: left !important;">Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                  </div>
+                </div>
+
+                <div class="row row-a" style="margin-top: 15px !important;">
+                  <div class="col-3">
+                    <img class="item-image-3 cart-image-animate" src="Images/Screenshot from 2021-02-28 14-30-29.png"/>
+                  </div>
+                  <div class="col-9" style="padding: 20px 25px !important;">
+                    <h5 style="font-weight: bolder; text-align: left !important;">Long Time to Use</h3>
+                    <p style="font-size: 14px !important; text-align: left !important;">Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-4 s-res">
+                <img class="image-center-size" src="http://webstrot.com/html/typhoon/typhoon_html/images/cs_service.png" />
+              </div>
+              <div class="col-4 s-res">
+                
+                <div class="row row-a" style="margin-top: 15px !important;">
+                  <div class="col-3">
+                    <img class="item-image-3 cart-image-animate" src="Images/Screenshot from 2021-02-28 14-30-29.png"/>
+                  </div>
+                  <div class="col-9" style="padding: 20px 25px !important;">
+                    <h5 style="font-weight: bolder; text-align: left !important;">Long Time to Use</h3>
+                    <p style="font-size: 14px !important; text-align: left !important;">Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                  </div>
+                </div>
+
+                <div class="row row-a" style="margin-top: 15px !important;">
+                  <div class="col-3">
+                    <img class="item-image-3 cart-image-animate" src="Images/Screenshot from 2021-02-28 14-30-29.png"/>
+                  </div>
+                  <div class="col-9" style="padding: 20px 25px !important;">
+                    <h5 style="font-weight: bolder; text-align: left !important;">Long Time to Use</h3>
+                    <p style="font-size: 14px !important; text-align: left !important;">Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                  </div>
+                </div>
+
+                <div class="row row-a" style="margin-top: 15px !important;">
+                  <div class="col-3">
+                    <img class="item-image-3 cart-image-animate" src="Images/Screenshot from 2021-02-28 14-30-29.png"/>
+                  </div>
+                  <div class="col-9" style="padding: 20px 25px !important;">
+                    <h5 style="font-weight: bolder; text-align: left !important;">Long Time to Use</h3>
+                    <p style="font-size: 14px !important; text-align: left !important;">Quisque ut nunc elit. Lorem ipsum dolor Sit amet consectetur.</p>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            
+            </div>
+  
+  
+            </div>
+
+            <div class="container-xxl background-banner-big">
+              <div>
+              <h2 class="sec2-title "> Why Choose <span style="color: white !important;" class="wave-underline sometext-color">Us</span>  Solar Energy</h2>
+              <img style="margin-top: -35px !important;" src="http://webstrot.com/html/typhoon/typhoon_html/images/heading_line3.png"/>
+              <p style="color: white !important; margin-bottom: 60px;" class="slidesubtext">Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent <br/> sed molestie tortor.</p>
+             </div>
+
+
+            <div class="row">
+
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                
+                <div class="carousel-inner" style="padding-bottom: 150px !important;">
+                  <div class="carousel-item active">
+                    <div class="row"> 
+                      <div class="col slide-sec-side">
+                         <div class="row row-a">
+                            <div class="col "> 
+                              <img class="image-profile resposive-align" src="http://webstrot.com/html/typhoon/typhoon_html/images/testi_2.png"> 
+                            </div> 
+                            <div class="col"> 
+                              <p class="responsive-text-align" style="text-align: left;">Donec quis magna sit amet risus vulputate set eget arcu Praesent sed molestie tortor ed ulla suscipit lectus. Lorem ipsum dolor sit amet.</p>
+                              <h4 class="responsive-text-align" style="text-align: left; font-weight: bold;">AJAY s</h4>
+                              <p class="responsive-text-align" style="text-align: left; opacity: 0.8;">(CEO)</p>
+
+                            </div>
+                             </div> 
+                            </div> 
+                            <div class="col"> 
+                              <div class="row row-a"> 
+                                <div class="col"> 
+                                  <img class="image-profile resposive-align" src="http://webstrot.com/html/typhoon/typhoon_html/images/testi_2.png"> 
+                                </div>
+                                 <div class="col"> 
+                                  <p class="responsive-text-align" style="text-align: left;  ">Donec quis magna sit amet risus vulputate set eget arcu Praesent sed molestie tortor ed ulla suscipit lectus. Lorem ipsum dolor sit amet.</p>
+                                  <h4 class="responsive-text-align" style="text-align: left; font-weight: bold;">AJAY s</h4>
+                                  <p class="responsive-text-align" style="text-align: left; opacity: 0.8;">(CEO)</p>
+
+
+                                 </div>
+                                 </div> 
+                                </div> 
+                              </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row"> 
+                      <div class="col">
+                         <div class="row row-a">
+                            <div class="col"> 
+                              <img class="image-profile resposive-align" src="http://webstrot.com/html/typhoon/typhoon_html/images/testi_2.png"> 
+                            </div> 
+                            <div class="col"> 
+                              <p class="responsive-text-align" style="text-align: left;">Donec quis magna sit amet risus vulputate set eget arcu Praesent sed molestie tortor ed ulla suscipit lectus. Lorem ipsum dolor sit amet.</p>
+                              <h4 class="responsive-text-align" style="text-align: left; font-weight: bold;">AJAY s</h4>
+                              <p class="responsive-text-align" style="text-align: left; opacity: 0.8;">(CEO)</p>
+
+                            </div>
+                             </div> 
+                            </div> 
+                            <div class="col slide-sec-side"> 
+                              <div class="row row-a"> 
+                                <div class="col"> 
+                                  <img class="image-profile resposive-align" src="http://webstrot.com/html/typhoon/typhoon_html/images/testi_2.png"> 
+                                </div>
+                                 <div class="col"> 
+                                  <p class="responsive-text-align" style="text-align: left;">Donec quis magna sit amet risus vulputate set eget arcu Praesent sed molestie tortor ed ulla suscipit lectus. Lorem ipsum dolor sit amet.</p>
+                                  <h4 class="responsive-text-align" style="text-align: left; font-weight: bold;">AJAY s</h4>
+                                  <p class="responsive-text-align" style="text-align: left; opacity: 0.8;">(CEO)</p>
+
+
+                                 </div>
+                                 </div> 
+                                </div> 
+                              </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="row"> 
+                      <div class="col">
+                         <div class="row row-a">
+                            <div class="col"> 
+                              <img class="image-profile resposive-align" src="http://webstrot.com/html/typhoon/typhoon_html/images/testi_2.png"> 
+                            </div> 
+                            <div class="col"> 
+                              <p class="responsive-text-align" style="text-align: left;">Donec quis magna sit amet risus vulputate set eget arcu Praesent  sed molestie tortor ed ulla suscipit lectus. Lorem ipsum dolor sit amet.</p>
+                              <h4 class="responsive-text-align" style="text-align: left; font-weight: bold;">AJAY s</h4>
+                              <p class="responsive-text-align" style="text-align: left; opacity: 0.8;">(CEO)</p>
+
+                            </div>
+                             </div> 
+                            </div> 
+                            <div class="col slide-sec-side"> 
+                              <div class="row row-a"> 
+                                <div class="col "> 
+                                  <img class="image-profile resposive-align" src="http://webstrot.com/html/typhoon/typhoon_html/images/testi_2.png"> 
+                                </div>
+                                 <div class="col"> 
+                                  <p style="text-align: left;">Donec quis magna sit amet risus vulputate set eget arcu Praesent sed molestie tortor ed ulla suscipit lectus. Lorem ipsum dolor sit amet.</p>
+                                  <h4 style="text-align: left; font-weight: bold;">AJAY s</h4>
+                                  <p style="text-align: left; opacity: 0.8;">(CEO)</p>
+
+
+                                 </div>
+                                 </div> 
+                                </div> 
+                              </div>
+                  </div>
+
+                
+
+
+                </div>
+
+                
+               
+              </div>
+
+
+              
+            </div>
+
+
+            </div>
+
+            <div style="padding: 20px; margin-top: 30px !important;" class="container-xl">
+              <h2 class="sec2-title sometext-color"><span class="wave-underline sometext-color">We</span> Cover The Whole Spectrum</h2>
+      
+              <div class="btn-arow-style">
+                <button onclick="MoveScrollsec('right')" id="leftmovefirstslide" class="btn arrowbutton" type="button">
+                  <i class="bi bi-arrow-left"></i>
+                </button>
+                <button onclick="MoveScrollsec('left')" id="rightmovefirstslide" class="btn arrowbutton" type="button">
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+              
+              <div id="cartslidersec" class="scrollmenu" style="margin-top: 40px !important;">
+                
+                  <div class="cart-white-scorol" style="height: 420px !important; border-radius: 15px; width: 270px !important;">
+                    <div class="col" >
+                        <img src="http://webstrot.com/html/typhoon/typhoon_html/images/prdct_2.jpg" class="card-img-top" alt="...">
+                        <br/>
+                        <img style="margin-top: -30px !important;" src="http://webstrot.com/html/typhoon/typhoon_html/images/line.png"/>
+                        <div class="card-body">
+                          <h6 class="cart-slide-price">$156</h6>
+                          <h5 class="" style="font-weight: bolder;margin-top: 8px !important;">Air 360 turbin</h5>
+                          <div>
+                            <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cart-white-scorol" style="height: 420px !important; border-radius: 15px; width: 270px !important;">
+                    <div class="col" >
+                        <img src="http://webstrot.com/html/typhoon/typhoon_html/images/prdct_2.jpg" class="card-img-top" alt="...">
+                        <br/>
+                        <img style="margin-top: -30px !important;" src="http://webstrot.com/html/typhoon/typhoon_html/images/line.png"/>
+                        <div class="card-body">
+                          <h6 class="cart-slide-price">$156</h6>
+                          <h5 class="" style="font-weight: bolder;margin-top: 8px !important;">Air 360 turbin</h5>
+                          <div>
+                            <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cart-white-scorol" style="height: 420px !important; border-radius: 15px; width: 270px !important;">
+                    <div class="col" >
+                        <img src="http://webstrot.com/html/typhoon/typhoon_html/images/prdct_2.jpg" class="card-img-top" alt="...">
+                        <br/>
+                        <img style="margin-top: -30px !important;" src="http://webstrot.com/html/typhoon/typhoon_html/images/line.png"/>
+                        <div class="card-body">
+                          <h6 class="cart-slide-price">$156</h6>
+                          <h5 class="" style="font-weight: bolder;margin-top: 8px !important;">Air 360 turbin</h5>
+                          <div>
+                            <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cart-white-scorol" style="height: 420px !important; border-radius: 15px; width: 270px !important;">
+                    <div class="col" >
+                        <img src="http://webstrot.com/html/typhoon/typhoon_html/images/prdct_2.jpg" class="card-img-top" alt="...">
+                        <br/>
+                        <img style="margin-top: -30px !important;" src="http://webstrot.com/html/typhoon/typhoon_html/images/line.png"/>
+                        <div class="card-body">
+                          <h6 class="cart-slide-price">$156</h6>
+                          <h5 class="" style="font-weight: bolder;margin-top: 8px !important;">Air 360 turbin</h5>
+                          <div>
+                            <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cart-white-scorol" style="height: 420px !important; border-radius: 15px; width: 270px !important;">
+                    <div class="col" >
+                        <img src="http://webstrot.com/html/typhoon/typhoon_html/images/prdct_2.jpg" class="card-img-top" alt="...">
+                        <br/>
+                        <img style="margin-top: -30px !important;" src="http://webstrot.com/html/typhoon/typhoon_html/images/line.png"/>
+                        <div class="card-body">
+                          <h6 class="cart-slide-price">$156</h6>
+                          <h5 class="" style="font-weight: bolder;margin-top: 8px !important;">Air 360 turbin</h5>
+                          <div>
+                            <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cart-white-scorol" style="height: 420px !important; border-radius: 15px; width: 270px !important;">
+                    <div class="col" >
+                        <img src="http://webstrot.com/html/typhoon/typhoon_html/images/prdct_2.jpg" class="card-img-top" alt="...">
+                        <br/>
+                        <img style="margin-top: -30px !important;" src="http://webstrot.com/html/typhoon/typhoon_html/images/line.png"/>
+                        <div class="card-body">
+                          <h6 class="cart-slide-price">$156</h6>
+                          <h5 class="" style="font-weight: bolder;margin-top: 8px !important;">Air 360 turbin</h5>
+                          <div>
+                            <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="cart-white-scorol" style="height: 420px !important; border-radius: 15px; width: 270px !important;">
+                    <div class="col" >
+                        <img src="http://webstrot.com/html/typhoon/typhoon_html/images/prdct_2.jpg" class="card-img-top" alt="...">
+                        <br/>
+                        <img style="margin-top: -30px !important;" src="http://webstrot.com/html/typhoon/typhoon_html/images/line.png"/>
+                        <div class="card-body">
+                          <h6 class="cart-slide-price">$156</h6>
+                          <h5 class="" style="font-weight: bolder;margin-top: 8px !important;">Air 360 turbin</h5>
+                          <div>
+                            <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star checked-stars"></span>
+                              <span class="fa fa-star"></span>
+                              <span class="fa fa-star"></span>
+                          </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+      
+
+              </div>
+                
+      
+            </div>
+            
+            
+            
+            
+            </div>
+            <div style="padding: 20px; margin-top: 30px !important; margin-bottom: 30px !important;" class="container-xl">
+           <div class="row">
+                <div class="col col-responsive1 ">
+                  <h2 class="sec2-title sometext-color"><span class="wave-underline sometext-color"> All Roads</span>  Lead To Solar!</h2>
+                  <p style="padding-top: 2rem; color: black !important;" class="slidesubtext">Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor.</p>
+                  <br/>
+
+                  <div  class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button style="font-weight: bolder;font-size: large;" class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          why solar energy
+                        </button>
+                      </h2>
+                      <div id="collapseOne"  class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Akshay Handge dolor sit amet, consectetur adipisicing elido eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button style="font-weight: bolder;font-size: large;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          why solar energy
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Akshay Handge dolor sit amet, consectetur adipisicing elido eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button style="font-weight: bolder; font-size: large;" class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          why solar energy
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          Akshay Handge dolor sit amet, consectetur adipisicing elido eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="col col-responsive1">
+                  <img style="height: 90% ; width: 90%;" src="http://webstrot.com/html/typhoon/typhoon_html/images/leads.gif"/>
+                </div>
+              </div>
+            </div>
+
+            <div class="container-xxl background-banner-big image-setting">
+              <div class="row">
+                <div class="col big-image-response">
+                  <img class="big-img-style" src="http://webstrot.com/html/typhoon/typhoon_html/images/form_bg.png"/>
+                </div>
+                <div class="col" style="margin-top: 30px !important;">
+
+                  <h2 class="sec2-title" style="text-align: left !important;"> Fill Free Contact Us
+                  </h2>
+                  <p style="text-align: left !important;color: white !important; margin-bottom: 60px;" class="slidesubtext">Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor.</p>
+      
+
+                  <form class="row g-3" style="padding: 20px !important;">
+                    <div class="col-md-6">
+                      <input class="txt-style-1" type="text" class="form-control" id="inputname" placeholder="Name*">
+                    </div>
+                    <div class="col-md-6">
+                      <input class="txt-style-1" type="email" class="form-control" id="inputemail4" placeholder="Email*">
+                    </div>
+                    <div class="col-md-12">
+                      <input class="txt-style-1" type="text" class="form-control" id="subtitle" placeholder="subject">
+                    </div>
+                    <div class="col-12">
+                      <textarea class="txt-style-1" type="text" class="form-control" id="inputAddress" placeholder="Message" style="height:200px"></textarea>
+                    </div>
+                         
+                    <div class="col-12" style="text-align: left !important;">
+                      <button style="margin-top: 20px; padding: 11px 4rem !important;" id="navbutton" type="button" class="btn">Send</button>
+
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="container-xxl top-margin-class bg-right-c" style="text-align: center !important;">
+
+              <h2 class="sec2-title sometext-color"> Affordable  
+
+                <span class="wave-underline sometext-color">Pricing</span>  Packages</h2>
+              <p style="color: black !important;margin-bottom: 60px !important;" class="slidesubtext">Donec quis magna sit amet risus vulputate maximus eget eget arcu. Praesent sed molestie tortor.
+  
+              </p>
+              <div class="row">
+                <div class="col-sm box-shadow-big-2 cart-hover-text">
+
+                <div style="margin-top: 30px;"> 
+                  <sup class="cart-first-text dollar-sintax">$</sup>
+                  <span class="cart-first-text number-text-">75</span>
+                  <span class="cart-first-text month-text">/MONTH</span>
+                </div>
+
+                <h6 style="font-weight: bold;">Free For 60 Days</h6>
+
+                <img class="price-cart-image" src="http://webstrot.com/html/typhoon/typhoon_html/images/pricing_icon.png"/>
+
+                <h5 class="h5-div-price">Battery Capacity 11 - 15 kWh</h5>   
+                
+                  <p style="font-weight:500; margin-top: 40px;" class="slidesubtext" style="margin-top: 50px;">Free Service</p>
+                  <p  style="font-weight:500;"class="slidesubtext">Ranted Battery</p>
+                  <p  style="font-weight:500;"class="slidesubtext">Free Installation</p>
+                  <p style="font-weight:500;" class="slidesubtext">24 Hour Support</p>
+
+                  <div class="col-12" style="text-align: center !important; margin-bottom: 20px; ">
+                    <button style="padding: 11px 4rem !important;" id="navbutton" type="button" class="btn cart-btn">Basic</button>
+
+                  </div>
+                
+                </div>
+                <div class="col-sm box-shadow-big-2 cart-hover-text">
+                  <div style="margin-top: 30px;"> 
+                    <sup class="cart-first-text dollar-sintax">$</sup>
+                    <span class="cart-first-text number-text-">75</span>
+                    <span class="cart-first-text month-text">/MONTH</span>
+                  </div>
+  
+                  <h6 style="font-weight: bold;">Free For 60 Days</h6>
+  
+                  <img class="price-cart-image" src="http://webstrot.com/html/typhoon/typhoon_html/images/pricing_icon.png"/>
+  
+                  <h5 class="h5-div-price">Battery Capacity 11 - 15 kWh</h5>   
+                  
+                    <p style="font-weight:500; margin-top: 40px;" class="slidesubtext" style="margin-top: 50px;">Free Service</p>
+                    <p  style="font-weight:500;"class="slidesubtext">Ranted Battery</p>
+                    <p  style="font-weight:500;"class="slidesubtext">Free Installation</p>
+                    <p style="font-weight:500;" class="slidesubtext">24 Hour Support</p>
+  
+                    <div class="col-12" style="text-align: center !important; margin-bottom: 20px; ">
+                      <button style="padding: 11px 4rem !important;" id="navbutton" type="button" class="btn cart-btn">Basic</button>
+  
+                    </div>
+                </div>
+                <div class="col-sm box-shadow-big-2 cart-hover-text">
+                  <div style="margin-top: 30px;"> 
+                    <sup class="cart-first-text dollar-sintax">$</sup>
+                    <span class="cart-first-text number-text-">75</span>
+                    <span class="cart-first-text month-text">/MONTH</span>
+                  </div>
+  
+                  <h6 style="font-weight: bold;">Free For 60 Days</h6>
+  
+                  <img class="price-cart-image" src="http://webstrot.com/html/typhoon/typhoon_html/images/pricing_icon.png"/>
+  
+                  <h5 class="h5-div-price">Battery Capacity 11 - 15 kWh</h5>   
+                  
+                    <p style="font-weight:500; margin-top: 40px;" class="slidesubtext" style="margin-top: 50px;">Free Service</p>
+                    <p  style="font-weight:500;"class="slidesubtext">Ranted Battery</p>
+                    <p  style="font-weight:500;"class="slidesubtext">Free Installation</p>
+                    <p style="font-weight:500;" class="slidesubtext">24 Hour Support</p>
+  
+                    <div class="col-12" style="text-align: center !important; margin-bottom: 20px; ">
+                      <button style="padding: 11px 4rem !important;" id="navbutton" type="button" class="btn cart-btn">Basic</button>
+  
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container-xxl background-banner-big">
+              <div class="row" style="padding: 40px !important;">
+                <div class="col" style="text-align: left;">
+                  <h3>Subscribe Our Newsletter</h3>
+                  <p><i> the latest News & Offers.. </i></p>
+
+                  <div class="input-group " style="height: 60px;background-color: white;border-radius: 30px !important;">
+                    <input type="text" class="form-control textbox-Newsletter" id="inlineFormInputGroupUsername" placeholder="Username">
+                    <div class="input-group-text">Submit</div>
+
+                  </div>
+
+                  <p style="margin-top: 30px;">True environmental protection lies in loving the mountains, the oceans and in cher
+                    all creation</p>
+
+                </div>
+                <div class="col col-res-2">
+                  <img class="khastaaaam" src="http://webstrot.com/html/typhoon/typhoon_html/images/btm_news_bg.png"/>
+                </div>
+              </div>
+            </div>
+
+
+            <div style="padding: 20px; margin-top: 30px !important;" class="container-xl">
+              <h2 class="sec2-title sometext-color"><span class="wave-underline sometext-color">We</span> Cover The Whole Spectrum</h2>
+      
+              <div class="btn-arow-style">
+                <button onclick="MoveScroll3('right')" id="leftmovefirstslide" class="btn arrowbutton" type="button">
+                  <i class="bi bi-arrow-left"></i>
+                </button>
+                <button onclick="MoveScroll3('left')" id="rightmovefirstslide" class="btn arrowbutton" type="button">
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+              
+              <div id="cartslider3" class="scrollmenu" style="margin-top: 40px !important;">
+                
+                  <div class="cart-white-scorol-2">
+                    <img  src="http://webstrot.com/html/typhoon/typhoon_html/images/partner_1.png"/>
+                  </div>
+                  <div class="cart-white-scorol-2">
+                    <img  src="http://webstrot.com/html/typhoon/typhoon_html/images/partner_1.png"/>
+                  </div>
+                  <div class="cart-white-scorol-2">
+                    <img src="http://webstrot.com/html/typhoon/typhoon_html/images/partner_1.png"/>
+                  </div>
+                  <div class="cart-white-scorol-2">
+                    <img  src="http://webstrot.com/html/typhoon/typhoon_html/images/partner_1.png"/>
+                  </div>
+                  <div class="cart-white-scorol-2">
+                    <img  src="http://webstrot.com/html/typhoon/typhoon_html/images/partner_1.png"/>
+                  </div>
+                  <div class="cart-white-scorol-2">
+                    <img src="http://webstrot.com/html/typhoon/typhoon_html/images/partner_1.png"/>
+                  </div>
+                  <div class="cart-white-scorol-2">
+                    <img  src="http://webstrot.com/html/typhoon/typhoon_html/images/partner_1.png"/>
+                  </div>
+                  <div class="cart-white-scorol-2">
+                    <img  src="http://webstrot.com/html/typhoon/typhoon_html/images/partner_1.png"/>
+                  </div>
+      
+                
+      
+              </div>
+                
+      
+            </div>
+
+            <div class="container-xxl background-banner-big" style="padding: 90px !important;">
+              <div class="row">
+                <div class="col-sm" style="text-align: left !important; margin-bottom: 20px;">
+                  <img src="http://webstrot.com/html/typhoon/typhoon_html/images/hd_logo.png"/>
+                  <p class="footer-text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis aks nostrud exercitation ullamco.</p>
+                 
+                  <a ><i class="bi bi-facebook sotial-icons sotial-links"></i></a>
+                  <a ><i class="bi bi-instagram sotial-icons sotial-links"></i></a>
+                  <a ><i class="bi bi-telegram sotial-icons sotial-links"></i></a>
+                  <a ><i class="bi bi-twitter sotial-icons sotial-links"></i></a>
+
+
+                </div>
+                <div class="col-sm" style="text-align: left; margin-bottom: 20px;">
+                  <h4>Useful Links</h4>
+                  <img style="margin-top: -30px !important;" src="http://webstrot.com/html/typhoon/typhoon_html/images/heading_line3.png"/>
+                  
+                  <div class="row row-cols-2">
+                    <div class="col">
+
+                      <ul class="footer-ul-link">
+                        <li class="li-footer-links">About Us</li>
+                        <li class="li-footer-links">Events</li>
+                        <li class="li-footer-links">Contact</li>
+                        <li class="li-footer-links">History</li>
+                        <li class="li-footer-links">News</li>
+                      </ul>
+
+
+                    </div>
+                    <div class="col">
+
+                      <ul class="footer-ul-link">
+                        <li class="li-footer-links">About Us</li>
+                        <li class="li-footer-links">Events</li>
+                        <li class="li-footer-links">Contact</li>
+                        <li class="li-footer-links">History</li>
+                        <li class="li-footer-links">News</li>
+                      </ul>
+
+                    </div>
+                  </div>
+                  
+                </div>
+                <div class="col-sm" style="text-align: left; margin-bottom: 20px;">
+                  <h4>Contact Us</h4>
+                  <img style="margin-top: -30px !important;" src="http://webstrot.com/html/typhoon/typhoon_html/images/heading_line3.png"/>
+                  <h1 style="font-weight: bolder; ">+800 568 322</h1>
+
+                  <i style="font-size: 1.5rem !important;" class="bi bi-mailbox"></i>
+                  <span style="margin-left: 10px;">Timposn, Suite 247 USA, 222</span>
+                  <br/>
+
+                  <i style="font-size: 1.5rem !important;" class="bi bi-globe"></i>
+                  <span style="margin-left: 10px;">www.example.com</span>
+                  <br/>
+
+                  <i style="font-size: 1.5rem !important;" class="bi bi-mailbox"></i>
+                  <span style="margin-left: 10px;">Timposn, Suite 247 USA, 222</span>
+                  <br/>
+                </div>
+              </div>
+
+            </div>
+
+
+            
+
+
+
+
+          <div class="modal fade" id="exampleModal"  tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-boarder">
+              <div class="modal-content modal-boarder" >
+                <div class="modal-header modal-boarder" >
+                  <button type="button" class="btn-close modal-boarder" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img  src="http://webstrot.com/html/typhoon/typhoon_html/images/pj_1.jpg" alt="Avatar" class="image1">
+
+                </div>
+        
+              </div>
+            </div>
+          </div>
+
+
+    <script src="Js/Script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+</body>
+</html>
